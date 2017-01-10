@@ -14,10 +14,10 @@ import java.util.List;
 
 
 public class IGConfig implements Serializable {
-    public String clientId = "b424e99ce97a4fdb81948cdd251787d3";//"21df2915cb0c428f82d081f9d8fab863";
-    public String clientSecret = "36d77e0210694df69150a1db52e929c2";//"4641e3d2bfbc48328c4e7e53f2875399";
+    public String clientId = "";
+    public String clientSecret = "";
     public String grantType = "authorization_code";
-    public String redirectUrl = "http://116.62.49.210/InstagramServer/redirectUrl";
+    public String redirectUrl = "";
     public String code = "";
     private IGConfig(){
     }
